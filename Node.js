@@ -1,8 +1,8 @@
 const TelegramBot = require("node-telegram-bot-api");
 const axios = require("axios");
 
-const token = "TOKEN_BOT_KAMU";
-const url = "URL_APPS_SCRIPT_KAMU";
+const token = "8957620029:AAEy6XqsblPjwBT-oi-jr09vKwaE0HAfYKI";
+const url = "https://script.google.com/macros/s/AKfycbxG7LUGndlUD7H38YthEEAchRvRUlmrXJxmu1GemGFanbHE6fb--M4j7EPtmVK5GnXDDA/exec";
 
 const bot = new TelegramBot(token, { polling: true });
 
